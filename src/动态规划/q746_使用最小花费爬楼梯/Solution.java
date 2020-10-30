@@ -48,10 +48,29 @@ public class Solution {
         return Math.min(dp[cost.length - 2], dp[cost.length - 1]);
     }
 
+    /**
+     * 从最后一级台阶走到第一个台阶
+     * f[i] = cost[i] + min(f[i + 1], f[i + 2])
+     * @param cost
+     * @return
+     */
+    public int minCostClimbingStairs2(int[] cost) {
+        int f1 = 0, f2 = 0;
+        for (int i = cost.length - 1; i >= 0; i--) {
+            int f0 = cost[i] + Math.min(f1, f2);
+            f2 = f1;
+            f1 = f0;
+        }
+        return Math.min(f1, f2);
+    }
+
+
     public static void main(String[] args) {
         int[] cost = {10, 15, 20};
         int[] cost2 = {1, 100, 1, 1, 1, 100, 1, 1, 100, 1};
         System.out.println(new Solution().minCostClimbingStairs(cost));
         System.out.println(new Solution().minCostClimbingStairs(cost2));
+        System.out.println(new Solution().minCostClimbingStairs2(cost));
+        System.out.println(new Solution().minCostClimbingStairs2(cost2));
     }
 }
