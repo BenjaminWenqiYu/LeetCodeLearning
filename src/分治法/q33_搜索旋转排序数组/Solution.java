@@ -2,7 +2,7 @@ package 分治法.q33_搜索旋转排序数组;
 
 /**
  * Created with IntelliJ IDEA.
- * User: yuwenqi
+ * User: ywq
  * Date: 2020-11-02
  * Time: 09:55
  * Description:

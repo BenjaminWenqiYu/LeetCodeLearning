@@ -3,7 +3,7 @@ package 动态规划.q746_使用最小花费爬楼梯;
 
 /**
  * Created with IntelliJ IDEA.
- * User: yuwenqi
+ * User: ywq
  * Date: 2020-10-28
  * Time: 14:30
  * Description:

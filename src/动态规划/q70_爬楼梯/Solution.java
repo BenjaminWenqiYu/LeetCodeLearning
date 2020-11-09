@@ -2,7 +2,7 @@ package 动态规划.q70_爬楼梯;
 
 /**
  * Created with IntelliJ IDEA.
- * User: yuwenqi
+ * User: ywq
  * Date: 2020-10-28
  * Time: 14:14
  * Description: 动态规划 dp[i]表示到达第i阶的方法总数dp[i]=dp[i−1]+dp[i−2] o(n)

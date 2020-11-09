@@ -2,7 +2,7 @@ package 分治法.q23_合并K个排序链表;
 
 /**
  * Created with IntelliJ IDEA.
- * User: yuwenqi
+ * User: ywq
  * Date: 2020-10-31
  * Time: 14:45
  * Description:

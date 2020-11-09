@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
- * User: yuwenqi
+ * User: ywq
  * Date: 2020-10-27
  * Time: 08:39
  * Description: 当压栈的值小于栈中最小值时，先把最小值入栈，然后再把需要压栈的值入栈，最后再更新栈中最小值。

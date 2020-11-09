@@ -2,7 +2,7 @@ package 分治法.q34_在排序数组中查找元素的第一个和最后一个�
 
 /**
  * Created with IntelliJ IDEA.
- * User: yuwenqi
+ * User: ywq
  * Date: 2020-11-02
  * Time: 10:26
  * Description:

@@ -2,7 +2,7 @@ package 二维数组;
 
 /**
  * Created with IntelliJ IDEA.
- * User: yuwenqi
+ * User: ywq
  * Date: 2020-10-27
  * Time: 18:10
  * Description:

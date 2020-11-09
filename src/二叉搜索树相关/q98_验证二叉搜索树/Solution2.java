@@ -2,7 +2,7 @@ package 二叉搜索树相关.q98_验证二叉搜索树;
 
 /**
  * Created with IntelliJ IDEA.
- * User: yuwenqi
+ * User: ywq
  * Date: 2020-10-26
  * Time: 13:56
  * Description: 寻找上下界递归 O(N)

@@ -1,13 +1,12 @@
 package 二叉搜索树相关.q98_验证二叉搜索树;
 
-import sun.reflect.generics.tree.Tree;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 /**
  * Created with IntelliJ IDEA.
- * User: yuwenqi
+ * User: ywq
  * Date: 2020-10-26
  * Time: 19:22
  * Description: 层序遍历迭代法判断上下界 O(N)
