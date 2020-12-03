@@ -13,6 +13,6 @@ public class TreeNode {
     TreeNode right;
 
     TreeNode(int val) {
-        val = val;
+        this.val = val;
     }
 }
